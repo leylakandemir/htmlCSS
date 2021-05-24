@@ -1,0 +1,33 @@
+*{
+    text-align: center;
+}
+h1{
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 30px;
+}
+/* classi .name ile  id i ise #name ile cagiriyoruz */
+/* cizgi kalinligi, cizgi turu, renk */
+/* solid double dashed  */
+.tablo{
+   border: 4px solid grey; 
+   border-collapse: collapse;
+   width: 50%;
+   margin-left: auto; /*sol ve sagdan otomatik bosluk koyarak nesneler ortaya hizalanabilir*/
+   margin-right: auto;
+}
+/* virgul kullanarak birden cok seyi stillendiriyoruz.*/
+th , td{
+    border: 2px solid grey;
+    
+}
+th{
+   background-color: green; 
+}
+tr:hover{
+    background-color: greenyellow;
+}
+/*  : kullanip bircok ozelligi verebiliyoruz. */
+tr:nth-child(even){
+    background-color: hotpink;
+}

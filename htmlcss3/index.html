@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>FORMLAR</h1>
+    <form action="kaydet.php">
+        <label for="ad">Adiniz:</label>
+        <input  class="input" id="ad" maxlength="20" type="text" placeholder="Isim giriniz" name="ad" value=""><br/><br/>
+        <label for="sifre">Sifreniz:</label>
+        <input class="input" id="sifre" type="text" required="" placeholder="Sifre Giriniz" name="sifre"><br><br>
+
+        <label for="sayi">Yasiniz:</label>
+        <input class="input" id="sayi" type="number" max="100" min="0" name="yas" placeholder="Yasinizi Giriniz"><br><br>
+    
+        <label for="email">E-Mail:</label>
+        <input class="input" id="email" type="email" placeholder="E-Mail Giriniz" name="email"><br><br>
+        <input type="submit" value="Gonder">
+        <input type="button" value="Temizle">
+    </form>
+</body>
+</html>
