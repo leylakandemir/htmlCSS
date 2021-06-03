@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(19, 18, 18);
+    text-align: center;
+    font-weight: bolder;
+}
+.header{
+    background-color: purple;
+    height: 50px;
+}
+.nav{
+    margin: 10px;
+    height: 45px;
+    background-color: pink;
+    text-align: left;
+}
+.aside{
+background-color: blueviolet;
+border-radius: 25px;
+float: left;
+width: 25%;
+height: 60%;
+}
+.ana{
+background-color: burlywood;
+border-radius: 25px;
+float: left;
+width: 75%;
+height: 60%;
+
+}
+.foot{
+    background-color: seagreen;
+    height: 10%;
+}
+.clearfix{
+    clear: both;
+}
+.btn{
+    color: seagreen;
+    background-color: rgb(245, 113, 52);
+    border-radius:30px;
+    margin: 10px;
+    height: 30px;
+    width: 90px;
+    cursor: pointer;
+    counter-increment: 1;
+}
